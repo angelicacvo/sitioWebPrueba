@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portafolio Angelica</title>
+  </head>
+  <body>
+    <header>
+      <a class="nav-top__li" href="index.html"
+        ><i class="fa-solid fa-person-dress"></i
+      ></a>
+      <h1>Personal web</h1>
+      <nav>
+        <ul class="nav__ul">
+          <li><a class="nav-top__li" href="index.html">About me</a></li>
+          <li><a class="nav-top__li" href="projects.html">Projects</a></li>
+          <li><a class="nav-top__li" href="contact.html">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+    
+      <section class="contact_grid-container">
+        <div class="contact_main-items">
+          <div class="item contact_main-item_1">
+            <h2 class="title__h2">Contact me</h2>
+          </div>
+        
+          <div class="item contact_main-item_2">
+            <div class="carousel">
+              <div class="carousel__content">
+                <div class="content__slide">
+                  <img
+                    class="content__slide__img"
+                    src="./assets/servicio_1.jpg"
+                    alt="slide 1"
+                  />
+                </div>
+                <div class="content__slide">
+                  <img
+                    class="content__slide__img"
+                    src="./assets/servicio_2.webp"
+                    alt="slide 2"
+                  />
+                </div>
+                <div class="content__slide">
+                  <img
+                    class="content__slide__img"
+                    src="./assets/servicio_3.webp"
+                    alt="slide 3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item contact_main-item_3">
+            <div class="contact">
+              <h2>Contact</h2>
+              <div class="form-container">
+                <form class="contact_form" action="/action_page.php">
+                  <div class="form-group">
+                    <label for="nombre">Name</label>
+                    <input
+                      class="form__input"
+                      type="text"
+                      id="nombre"
+                      name="nombre"
+                      placeholder="Tu nombre"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                      class="form__input"
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Tu email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="mensaje">Menssage</label>
+                    <textarea
+                      id="mensaje"
+                      name="mensaje"
+                      placeholder="Tu mensaje"
+                      required
+                    ></textarea>
+                  </div>
+                  <button class="form_button" type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/ea4c7975d5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
