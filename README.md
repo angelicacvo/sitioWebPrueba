@@ -63,4 +63,12 @@ cd [nombre-del-repositorio]
 ```
 Luego, abre `index.html` en tu navegador.
 
+#Maquetación:
+![Prototipo_figma](https://github.com/user-attachments/assets/5bd55a76-e7da-4fd2-a8a7-46fe41aae883)
+
+Enlace al figma:
+https://www.figma.com/design/3oSxuWp8iDmL10vdDCH6o7/Sin-t%C3%ADtulo?node-id=0-1&m=dev&t=qZUZ04HlS3PfyfW3-1
+
+
+
 
