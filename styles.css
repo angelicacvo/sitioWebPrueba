@@ -359,7 +359,7 @@ textarea {
   }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -402,4 +402,4 @@ textarea {
   .form-container {
     width: 20rem;
   }
-}
+} */
