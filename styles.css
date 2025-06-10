@@ -48,6 +48,10 @@ main {
   background-color: var(--principal-background-color);
 }
 
+.title__h2{
+  padding: 2rem;
+}
+
 .index_grid-container {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -257,7 +261,11 @@ textarea {
   background-color: var(--nav-bar-background-color);
 }
 
-@media (max-width: 480px) {
+@media(max-width: 480px) {
+  body {
+    background-color: #1b263b;
+  }
+
   header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -290,8 +298,7 @@ textarea {
   }
 
   .project_main-item_2 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 0.5rem;
     place-items: center;
     padding: 1rem 3rem;
